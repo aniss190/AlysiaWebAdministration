@@ -1,0 +1,146 @@
+body
+{
+    background-color: #303030;
+}
+
+h1
+{
+    font-family: 'Helvetica Neue',Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1em;
+    color: #ffbb00;
+    font-weight:bold;
+    font-size: 64px;
+    text-shadow:0px 0px 0 rgb(231,163,-24),1px 1px 0 rgb(216,148,-39),2px 2px 0 rgb(202,134,-53),3px 3px 0 rgb(187,119,-68),4px 4px 0 rgb(173,105,-82),5px 5px 0 rgb(158,90,-97), 6px 6px 0 rgb(144,76,-111),7px 7px 6px rgba(0,0,0,0.6),7px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
+}
+
+.form-co
+{
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-co .form-control
+{
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+
+h2
+{
+    font-size: 28px;
+    text-align: center;
+}
+
+.form-co .form-control:focus
+{
+  z-index: 2;
+}
+
+.form-co input[type="login"]
+{
+  margin-bottom: 1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-co input[type="password"]
+{
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+input:required
+{
+  box-shadow: 4px 4px 20px #0F056B;
+}
+
+input:required:focus
+{
+  border: 1px solid #0F056B;
+  outline: none;
+}
+
+.btn
+{
+    border-color: black;
+    background-color: #0F056B;
+}
+
+.btn:hover
+{
+    border-color: white;
+    background-color: transparent;
+    color: white;
+}
+
+.navbar {
+    border-radius: 0;
+    text-align: center;
+    height: 51px;
+    border-color: black;
+    background-color: #0F056B;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: #303030;
+}
+.navbar-default .navbar-nav > .active > a{
+    color: white;
+    background-color: #303030;
+    border: none;
+    border-color: white;
+}
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #303030;
+    background-color: transparent;
+}
+
+#bloc {
+    margin-left: 50px;
+}
+.table {
+    text-align: center;
+    color: white;
+}
+th {
+    text-align: center;
+    background-color: #0F056B;
+    color: white;
+}
+tr.en-cours{
+    background-color: orange;
+    color: black;
+}
+tr.non-traite{
+    background-color: red;
+    color: black;
+}
+tr.en-plainte{
+    background-color:black;
+    color: white;
+}
+tr.repare{
+    background-color:white;
+    color: black;
+}
+
+form {
+    color:white;
+    margin-left: 10%;
+}
+
+input, textarea{
+    color: black;
+}
